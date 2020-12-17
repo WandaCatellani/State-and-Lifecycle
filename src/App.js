@@ -50,7 +50,7 @@ const App = () => {
   return (
     <>
       <Header titulo={titulo} links={links} />
-      <Test />
+
       <button onClick={cambiarTitulo}>Cambiar Titulo</button>
       <button onClick={toggleTest}>mostrar el componente test</button>
       {/* visible ? <Test titulo={titulo} /> : null */}
